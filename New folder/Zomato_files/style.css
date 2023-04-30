@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.box
+{
+    height: 100vh;
+    max-width: 100vw;
+    /* border: 2px solid black; */
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 40vw;
+    font-weight: lighter; 
+}
+.navbar{
+    /* border: 2px solid yellow; */
+    height: 10vh;
+}
+
+.logo img{
+    height: 10vh;
+    padding-bottom:10vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid yellowgreen; */
+    height: 90vh;
+    max-width: 100vw;
+}
+
+.para
+{
+  color: #ffffff; 
+  text-align: center;
+  
+}
+.para h1{
+    font-weight: normal;
+}
+
+.box2
+{
+    height: 40vh;
+    max-width: 100vw;
+    /* border: 2px solid yellowgreen; */
+}
+
+.heading h1{
+    font-weight: normal;
+    font-size:xx-large;
+}
+.heading
+{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.heading  img
+{
+    height: 30px;
+}
+
+.para2
+{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    padding: 0vh 20vw;
+    color: rgb(134, 130, 130);
+    font-size: large;
+}
+.card{
+    max-width: 80vw;
+    min-height: 100vh;
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-left: 4vw;
+    
+}
+
+.card button
+{
+   width: 30vw;
+   height: 13vh;
+   font-weight: normal;
+   font-size: larger;
+   background-color: #ffffff;
+   border: 2px solid#ececec;
+   text-align: center;
+}
+
+
+
+.item
+{
+    /* border: 2px solid orange; */
+    justify-self: center;
+    margin-top:  20px;
+}
+
+.head
+{
+/* border: 2px solid black; */
+margin-top: 7vh;
+}
+.head h1{
+    padding-left: 5vw;
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+
+
+
+.countries
+{
+    max-width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    
+}
